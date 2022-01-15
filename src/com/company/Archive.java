@@ -50,4 +50,9 @@ public class Archive {
         String text = "Сегодня " + day + ", месяц - " + month;
         System.out.println(text);
     }
+
+    static public void viewPathRoot(){
+        String rootPath = System.getProperty("user.dir");
+        JOptionPane.showMessageDialog(null, rootPath);
+    }
 }
